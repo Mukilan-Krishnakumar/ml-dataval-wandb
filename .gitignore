@@ -1,4 +1,13 @@
-# Ignore pyenv
+# Ignore venv
 dataval_env/
 
+# Ignore dataset
+canonical-partitioned-dataset/
 
+*.tar
+
+.ipynb_checkpoints/
+
+dataval/__pycache__/
+
+wandb/
